@@ -1,5 +1,5 @@
-/* Navbar font */
-.sc-46ce87e2-9.dHpZXi {
+/* Target only the "About us" link */
+.sc-46ce87e2-9.dHpZXi[href="/about-us"] {
   font-family: 'Arial', sans-serif; /* change font if desired */
   font-weight: normal;
   color: #ffffff; /* default text color */
@@ -9,7 +9,7 @@
 }
 
 /* Hover effect: green background + bold text */
-.sc-46ce87e2-9.dHpZXi:hover {
+.sc-46ce87e2-9.dHpZXi[href="/about-us"]:hover {
   background-color: green;
   font-weight: bold;
   color: #ffffff;
