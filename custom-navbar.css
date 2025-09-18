@@ -1,17 +1,17 @@
-/* Navigation bar links */
-.header__nav a {
-  font-family: 'Arial', sans-serif;  /* Change font if you want */
+/* Navbar font */
+.sc-46ce87e2-9.dHpZXi {
+  font-family: 'Arial', sans-serif; /* change font if desired */
   font-weight: normal;
-  color: #ffffff;                     /* default font color */
+  color: #ffffff; /* default text color */
   text-decoration: none;
   padding: 10px 15px;
-  transition: all 0.3s ease;          /* smooth hover effect */
+  transition: all 0.3s ease;
 }
 
-/* Hover effect: green background and bold text */
-.header__nav a:hover {
+/* Hover effect: green background + bold text */
+.sc-46ce87e2-9.dHpZXi:hover {
   background-color: green;
   font-weight: bold;
   color: #ffffff;
-  border-radius: 4px;
+  border-radius: 4px; /* optional rounded corners */
 }
