@@ -2,7 +2,7 @@
 .sc-46ce87e2-9.dHpZXi[href="/about-us"] {
   font-family: 'Arial', sans-serif; /* change font if desired */
   font-weight: normal;
-  color: #ffffff; /* default text color */
+  color: #000000; /* default text color */
   text-decoration: none;
   padding: 10px 15px;
   transition: all 0.3s ease;
@@ -12,6 +12,7 @@
 .sc-46ce87e2-9.dHpZXi[href="/about-us"]:hover {
   background-color: green;
   font-weight: bold;
-  color: #ffffff;
+  color: #000000;
   border-radius: 4px; /* optional rounded corners */
 }
+
