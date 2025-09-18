@@ -1,0 +1,17 @@
+/* Navigation bar links */
+.header__nav a {
+  font-family: 'Arial', sans-serif;  /* Change font if you want */
+  font-weight: normal;
+  color: #ffffff;                     /* default font color */
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: all 0.3s ease;          /* smooth hover effect */
+}
+
+/* Hover effect: green background and bold text */
+.header__nav a:hover {
+  background-color: green;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 4px;
+}
