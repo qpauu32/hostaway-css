@@ -1,19 +1,19 @@
-/* Target only the "About us" link */
-.sc-46ce87e2-9.dHpZXi[href="/about-us"] {
-  font-family: 'Arial', sans-serif; /* change font if desired */
-  font-weight: normal;
-  color: #000000; /* default text color */
+/* Navbar background */
+.higqom {
+  background-color: #0F2C59;
+}
+
+/* Navbar links */
+.dHpZXi {
+  color: #F8F0E5;
   text-decoration: none;
+  transition: background-color 0.4s ease, color 0.4s ease;
   padding: 10px 15px;
-  transition: all 0.3s ease;
+  border-radius: 4px; /* optional for softer hover look */
 }
 
-/* Hover effect: green background + bold text */
-.sc-46ce87e2-9.dHpZXi[href="/about-us"]:hover {
-  background-color: green;
-  font-weight: bold;
-  color: #ffffff;
-  border-radius: 4px; /* optional rounded corners */
+/* Hover effect */
+.dHpZXi:hover {
+  background-color: #F8F0E5; /* invert colors on hover */
+  color: #0F2C59;
 }
-
-
