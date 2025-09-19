@@ -1,0 +1,17 @@
+/* Target only the "About us" link */
+.sc-46ce87e2-9.dHpZXi[href="/about-us"] {
+  font-family: 'Arial', sans-serif; /* change font if desired */
+  font-weight: normal;
+  color: #ffffff; /* default text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect: green background + bold text */
+.sc-46ce87e2-9.dHpZXi[href="/about-us"]:hover {
+  background-color: green;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 4px; /* optional rounded corners */
+}
