@@ -1,6 +1,6 @@
 /* Navbar background */
 .higqom {
-  background-color: #0F2C59;
+  background-color: #0F2C59 !important; 
 }
 
 /* Navbar links */
@@ -17,3 +17,4 @@
   background-color: #F8F0E5; /* invert colors on hover */
   color: #0F2C59;
 }
+
